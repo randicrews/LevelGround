@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-style: normal;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    background: rgb(100, 117, 140);
+}
+nav{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(241, 241, 241);
+}
+nav a{
+    color: rgb(241, 241, 241);
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    margin-right: 100px;
+}
+header button{
+    margin-right: 30px;
+    width: 10%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(100, 117, 140);
+}
+.top{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(100, 117, 140);
+    color: rgb(241, 241, 241);
+}
+.top a{
+    color: rgb(241, 241, 241);
+}
+h1{
+    width: 80%;
+    font-size: 3.5rem;
+    margin: 0px;
+}
+.thinner{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.biggish{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background: rgb(218, 223, 226);
+}
+.biggish section{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 2rem;
+    margin: 0px;
+}
+.biggish p{
+    width: 70%;
+}
+.biggish div{
+    width: 50%;
+    height: 100px;
+    background: rgb(100, 117, 140);
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.548));
+}
+h3{
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+}
+.bottom{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+button{
+    border: solid .2px rgba(167, 167, 167);
+    width: 30%;
+    background: rgba(255, 255, 255, 0);
+    font-family: 'Oswald', sans-serif;
+    padding: 5px;
+
+}
+h4{
+    width: 50%;
+    font-size: 2rem;
+    margin: 0px;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(241, 241, 241);
+    background: rgb(21, 30, 43);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+footer a{
+    color: rgb(241, 241, 241);
+}
+.leftFoot{
+    width: 20%;
+    height: 112.5px;
+    padding-left: 10px;
+}
+h6{
+    width: 100%;
+    height: 10px;
+    float: left;
+    margin: 0px;
+    color: rgb(31, 49, 96);
+}
+h6+a{
+    width: 50%;
+    height: 10px;
+    float: left;
+    clear: left;
+}
+h6+a+a{
+    width: 50%;
+    height: 10px;
+    float: left;
+}
+.soclogos{
+    padding-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    width: 100%;
+    height: 37.5px;
+    display: flex;
+    justify-content: flex-start;
+}
+.soclogos i{
+    padding: 10px;
+    padding-left: 0px;
+}
+.map{
+    width: 100%;
+    height: 37.5px;
+}
+.give{
+    width: 100%;
+    height: 37.5px;
+}
+.rightFoot{
+    width: 80%;
+    height: 112.5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    text-align: left;
+
+}
+em{
+    font-weight: 700;
+}
+.bigFoot{
+    width: 100%;
+    height: 37.5px;
+    display: flex;
+    justify-content: flex-start;
+    background: rgb(21, 30, 43);
+    color: rgb(241, 241, 241);
+}
+p{
+    width: 50%;
+    text-align: center;
+}
+.top p{
+    width: 60%;
+}
+footer p{
+    width: 100%;
+    text-align: left;
+    margin-left: 10px;
+}
+h1, h2, h3, h4{
+    font-family:'Oswald', sans-serif;
+}
+@media screen and (max-width: 800px) {
+    .biggish{
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+    .biggish section{
+        width: 100%;
+        height: 300px;
+        padding-top: 0px;
+    }
+    .biggish div{
+        width: 30%;
+    }
+}
+
+@media screen and (max-device-width: 800px) {
+    .biggish{
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+    .biggish section{
+        width: 100%;
+        height: 400px;
+    }
+    .biggish div{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .thinner{
+        display: none;
+    }
+}
+@media screen and (max-device-width: 700px) {
+    .thinner{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    .bottom{
+        display: none;
+    }
+}
+@media screen and (max-device-width: 600px) {
+    .bottom{
+        display: none;
+    }
+}
