@@ -16,6 +16,9 @@ header{
     height: 30px;
     background: rgb(100, 117, 140);
 }
+.sneakyBuns{
+    display: none;
+}
 nav{
     width: 20%;
     display: flex;
@@ -29,11 +32,10 @@ nav a{
 .logo{
     width: 60px;
     height: 60px;
-    margin-right: 100px;
 }
 header button{
     margin-right: 30px;
-    width: 10%;
+    width: 20%;
     height: 40px;
     border-radius: 5px;
     border: none;
@@ -110,7 +112,7 @@ h3{
 button{
     border: solid .2px rgba(167, 167, 167);
     width: 30%;
-    background: rgba(255, 255, 255, 0);
+    background: rgb(255, 255, 255);
     font-family: 'Oswald', sans-serif;
     padding: 5px;
 
@@ -227,6 +229,15 @@ h1, h2, h3, h4{
     .biggish div{
         width: 30%;
     }
+    .hireUs{
+        display: none;
+    }
+    .classes{
+        display: none;
+    }
+    .sneakyBuns{
+        display: block;
+    }
 }
 
 @media screen and (max-device-width: 800px) {
@@ -242,6 +253,15 @@ h1, h2, h3, h4{
     }
     .biggish div{
         width: 30%;
+    }
+    .hireUs{
+        display: none;
+    }
+    .classes{
+        display: none;
+    }
+    .sneakyBuns{
+        display: block;
     }
 }
 
@@ -259,9 +279,15 @@ h1, h2, h3, h4{
     .bottom{
         display: none;
     }
+    button{
+        visibility: hidden;
+    }
 }
 @media screen and (max-device-width: 600px) {
     .bottom{
         display: none;
+    }
+    button{
+        visibility: hidden;
     }
 }
